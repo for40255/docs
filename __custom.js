@@ -230,11 +230,13 @@ function select_armor(element){
                 $(".grade-1").hide();
                 $(".grade-2").hide();
                 $(".grade-3").hide();
+                break
             case 5:
                 $(".grade-1").hide();
                 $(".grade-2").hide();
                 $(".grade-3").hide();
                 $(".grade-4").hide();
+                break
             default:
                 break
         }
